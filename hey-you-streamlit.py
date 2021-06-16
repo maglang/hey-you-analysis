@@ -6,4 +6,4 @@ import seaborn as sns
 
 """# EDA on Hey You Data"""
 
-st.selectbox('Objectives': (''))
+st.selectbox('Objectives', (''))
