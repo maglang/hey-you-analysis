@@ -2,4 +2,4 @@ streamlit
 pandas
 numpy
 os
-matplotlib.pyplot
+seaborn
