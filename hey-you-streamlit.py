@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import os
-import seaborn as sns
 
 st.sidebar.title("EDA on Hey You Data")
 
@@ -62,11 +61,23 @@ if option == '1. Describe customer behavior over time':
     device_use
 
     """
+      
+      
+
     On a daily average, there are around:
     - 22521 customers
     - 22903 orders
     - 1 order per customer
     - 8.11 AUD spent per order 
+      
+     
+
+    
+    Customers usually order in the morning, with the peak of orders at 8 am.
     """
+
+    """
+    ### Orders by Month, by Day of Week, and by Hour"""
+    st.image('overall_graphs/orders_hour_group.png')
 
 
