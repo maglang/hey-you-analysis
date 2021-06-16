@@ -61,4 +61,12 @@ if option == '1. Describe customer behavior over time':
     ).set_index('Device')
     device_use
 
+    """
+    On a daily average, there are around:
+    - 22521 customers
+    - 22903 orders
+    - 1 order per customer
+    - 8.11 AUD spent per order 
+    """
+
 
