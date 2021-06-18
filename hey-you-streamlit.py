@@ -167,8 +167,8 @@ if option == '2. Describe customer profile':
 
     """
     - These graphs also show that promos have an inverse effect on the average amount per customer. More customers are ordering
-    but customers with a basket that is below the average amount. Depending on the business model, this could increase (if business 
-    model earns from more customers) or slow down (if business model earns from amount of order) the bottomline.
+    but customers order with a basket that is below the average amount. Depending on the business model, this could increase (if business 
+    model earns from more customers) or slow down (if business model earns from amount per order, % of order) the bottomline.
     
     ### Next Steps:
     - The joint plot shows that the analysis could be wrong when plotted against day of week. The segments described could be affected
@@ -180,7 +180,7 @@ if option == '3. Describe the impact of the AI system':
     """
     # Impact of the AI System
     
-    The AI system was deployed after the first week March 2021.
+    The AI system was deployed after the first week May 2021.
     
     --------------------------
     ### Before vs After AI Deployment
@@ -237,7 +237,7 @@ if option == '3. Describe the impact of the AI system':
     - Number of customers increased versus the previous month but the ratio of customers to orders remained. 
     - It is also important to note that due to the aggregation of the data, distinct customers were not taken into account.
     So, customer to order ratio is calculated at an hourly level, i.e., customers order once per hour.
-    - Amount per vendor improved versus previous month."""
+    - Vendor metrics improved post AI deployment."""
     st.image('overall_graphs/customers_monthly.png')
 
     """
